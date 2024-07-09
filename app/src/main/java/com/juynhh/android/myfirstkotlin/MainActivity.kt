@@ -22,6 +22,6 @@ class MainActivity : AppCompatActivity() {
         val contactNameEditText : TextInputEditText = findViewById(R.id.edit_text_contact_name)
         val contactNumberEditText : TextInputEditText = findViewById(R.id.edit_text_contact_number)
         val testString = contactNameEditText.text.toString() + ", " + contactNumberEditText.text.toString()
-        //hello just test git meow moew
+        //hello just test git meow moew meowww
     }
 }
