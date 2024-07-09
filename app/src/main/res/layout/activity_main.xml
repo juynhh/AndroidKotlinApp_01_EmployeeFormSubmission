@@ -27,6 +27,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:hint="Contact Number">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -42,6 +43,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:hint="My Display Name">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -78,9 +80,10 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:hint="Available from date">
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_text_start_date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
