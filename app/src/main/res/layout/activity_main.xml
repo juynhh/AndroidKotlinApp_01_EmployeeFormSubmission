@@ -9,10 +9,11 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="48dp">
-
+        <!--https://m2.material.io/components/text-fields/android#outlined-text-field-->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/Widget.Material3.TextInputLayout.FilledBox"
             android:hint="Contact Name">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -28,6 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            style="@style/Widget.Material3.TextInputLayout.FilledBox"
             android:hint="Contact Number">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -44,6 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            style="@style/Widget.Material3.TextInputLayout.FilledBox"
             android:hint="My Display Name">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -81,6 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            style="@style/Widget.Material3.TextInputLayout.FilledBox"
             android:hint="Available from date">
 
             <com.google.android.material.textfield.TextInputEditText
