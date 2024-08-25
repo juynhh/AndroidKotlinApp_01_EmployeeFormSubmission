@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My First Kotlin</string>
+    <string name="send_message">Send Message</string>
 </resources>
